@@ -1,0 +1,38 @@
+Admin Message:
+	i.Edit as when permission is not granted but also result is displayed
+	ii.Delete as when permission is granted but also cannot delete
+Business Category:	
+	i. Edit as when permission is granted but also cannot edit 
+	ii. Delete as when permission is granted but also cannot delete
+	iii. Create as when permission is granted but also cannot create
+Entrepreneur:
+	i. Delete as when permission is granted but also cannot delete	
+Page Management:	
+	i.Edit as when permission is not granted but also result is displayed
+	ii. Delete as when permission is granted but also cannot delete
+FAQ:
+	i.Edit as when permission is not granted but also result is displayed
+	ii. Delete as when permission is granted but also cannot delete
+News Management:	
+	i.Edit as when permission is not granted but also result is displayed
+	ii. Delete as when permission is granted but also cannot delete
+Store Management:
+	Store Owner:
+		i.Create as when permission is granted but also cannot create
+		ii.Delete as when permission is granted but also cannot delete
+	Store:
+		i.Delete as when permission is granted but also cannot delete
+		
+
+User Management:
+	Roles:
+		i.Search result is not shown while keeping space.
+Log Management:
+	Log Management:
+		i.Search result is not shown.
+System Config:
+	Email Template:
+		i.Search(empty search) result is shown blank.
+
+Entrepreneur:
+	Change Password:System crash
