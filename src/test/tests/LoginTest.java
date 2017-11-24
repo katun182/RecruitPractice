@@ -1,9 +1,9 @@
-package test.tests.loginTest;
+package tests;
 
+import elements.Login;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-import pageobjects.login.Login;
-import test.tests.BaseTest;
+
 
 public class LoginTest extends BaseTest {
     private Login login;

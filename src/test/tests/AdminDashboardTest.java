@@ -1,12 +1,13 @@
-package test.tests.adminDashboardTest;
+package tests;
 
 
+import elements.AdminDashboard;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import pageobjects.admindashboard.AdminDashboard;
-import test.tests.BaseTestLogin;
 
-public class AdminDashboardTest extends BaseTestLogin{
+
+
+public class AdminDashboardTest extends BaseTestLogin {
     private AdminDashboard adminDashboard;
 
     @BeforeMethod

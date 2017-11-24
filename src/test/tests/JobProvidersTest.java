@@ -1,9 +1,9 @@
-package test.tests.jobProvidersTest;
+package tests;
 
+import elements.JobProviders;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import pageobjects.jobproviders.JobProviders;
-import test.tests.BaseTestLogin;
+
 
 public class JobProvidersTest extends BaseTestLogin{
 private JobProviders jobProviders;
