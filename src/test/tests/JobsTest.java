@@ -21,5 +21,17 @@ public class JobsTest extends BaseTestLogin {
         public void testThatJobsLinkWoks(){
         jobs.gotoJobsLink();
     }
+    @Test
+    public void testThatAddNewJobsLinkWorks(){
+            jobs.gotoJobsLink();
+            jobs.gotoAddNewJobLink();
+    }
+    @Test
+    public void testThatAddNewJobFormWorks(){
+        jobs.gotoJobsLink();
+        jobs.gotoAddNewJobLink();
+        jobs.setJobTitle("php");
+       jobs.setJobProvider("test_User(Test Company)");
+    }
 
 }
