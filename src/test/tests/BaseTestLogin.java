@@ -1,13 +1,12 @@
 package tests;
 
 import elements.Login;
-import org.testng.annotations.BeforeClass;
-
+import org.testng.annotations.BeforeMethod;
 
 
 public class BaseTestLogin extends BaseTest {
 
-    @BeforeClass
+    @BeforeMethod
     public void setup(){
         super.setup();
         new Login(driver).doLogin("admin","123admin@");
