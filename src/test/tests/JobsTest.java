@@ -31,7 +31,7 @@ public class JobsTest extends BaseTestLogin {
         jobs.gotoJobsLink();
         jobs.gotoAddNewJobLink();
         jobs.setJobTitle("php");
-       jobs.setJobProvider("test_User(Test Company)");
+        jobs.setJobProvider("test _User (Test Company)");
     }
 
 }
