@@ -1,4 +1,4 @@
-package pageobjects.login;
+package elements;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

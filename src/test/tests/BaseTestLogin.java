@@ -1,10 +1,11 @@
-package test.tests;
+package tests;
 
+import elements.Login;
 import org.testng.annotations.BeforeClass;
-import pageobjects.login.Login;
+
+
 
 public class BaseTestLogin extends BaseTest {
-    protected Login login;
 
     @BeforeClass
     public void setup(){
