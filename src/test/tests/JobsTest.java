@@ -42,8 +42,6 @@ public class JobsTest extends BaseTestLogin {
         jobs.setMobileDevelopment();
         jobs.setWebAppDevelopment();
         jobs.clickCancelBtn();
-
-
     }
 
 
