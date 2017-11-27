@@ -40,6 +40,8 @@ public class Jobs {
     WebElement webAppDevelopment;
     @FindBy(xpath = ".//*[@id='page-content']/div[5]/div/form/div[5]/div/a")
     WebElement cancelBtn;
+    @FindBy(xpath = ".//*[@id='page-content']/div[5]/div/form/div/div[3]/div/input")
+    WebElement searchBtn;
 
 
 
@@ -91,6 +93,11 @@ public class Jobs {
     }
     public void clickCancelBtn(){
         cancelBtn.click();
+    }
+    public void setSearachBox(String searchText){
+        searchBtn.click();
+        searchBtn.sendKeys(searchText);
+
     }
 
 

@@ -43,6 +43,12 @@ public class JobsTest extends BaseTestLogin {
         jobs.setWebAppDevelopment();
         jobs.clickCancelBtn();
     }
+    @Test
+    public void testThatSearchBtnWorks(){
+        jobs.gotoJobsLink();
+        jobs.setSearachBox("fanta");
+
+    }
 
 
 }
