@@ -39,6 +39,9 @@ public class JobsTest extends BaseTestLogin {
         jobs.setQweu();
         jobs.setCopies();
         jobs.setWebDevelopment();
+        jobs.setMobileDevelopment();
+        jobs.setWebAppDevelopment();
+        jobs.clickCancelBtn();
 
 
     }

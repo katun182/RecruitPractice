@@ -34,6 +34,12 @@ public class Jobs {
     WebElement copies;
     @FindBy(xpath = ".//*[@id='page-content']/div[5]/div/form/div[4]/div/div/div[30]/label/input")
     WebElement webDevelopment;
+    @FindBy(xpath = ".//*[@id='page-content']/div[5]/div/form/div[4]/div/div/div[35]/label/input")
+    WebElement mobileDevelopment;
+    @FindBy(xpath = ".//*[@id='page-content']/div[5]/div/form/div[4]/div/div/div[40]/label/input")
+    WebElement webAppDevelopment;
+    @FindBy(xpath = ".//*[@id='page-content']/div[5]/div/form/div[5]/div/a")
+    WebElement cancelBtn;
 
 
 
@@ -76,6 +82,15 @@ public class Jobs {
     }
     public void setWebDevelopment(){
         webDevelopment.click();
+    }
+    public void setMobileDevelopment(){
+        mobileDevelopment.click();
+    }
+    public void setWebAppDevelopment(){
+        webAppDevelopment.click();
+    }
+    public void clickCancelBtn(){
+        cancelBtn.click();
     }
 
 
