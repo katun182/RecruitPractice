@@ -51,7 +51,6 @@ public class Jobs {
     }
     public void setJobTitle(String jobTitleInput){
         jobTitle.sendKeys(jobTitleInput);
-        new WebDriverWait(driver,120);
     }
     public void setJobProvider(String jobProviderText){
         Select dropdown = new Select(jobProvider);
@@ -59,7 +58,6 @@ public class Jobs {
     }
     public void setJobDescription(String jobDescriptionInput){
         jobDescription.sendKeys(jobDescriptionInput);
-        //new WebDriverWait(driver,1200);
     }
     public void setSkillRequired(){
         skillRequired.click();
