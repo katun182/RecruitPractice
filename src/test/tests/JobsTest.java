@@ -32,6 +32,16 @@ public class JobsTest extends BaseTestLogin {
         jobs.gotoAddNewJobLink();
         jobs.setJobTitle("php");
         jobs.setJobProvider("test _User (Test Company)");
+        jobs.setJobDescription("the following should be the skills that user have to be daksfhad akdfha akdsfha aksdfhaj akdfha");
+        jobs.setSkillRequired();
+        jobs.setLanguage();
+        jobs.setCompanies();
+        jobs.setQweu();
+        jobs.setCopies();
+        jobs.setWebDevelopment();
+
+
     }
+
 
 }

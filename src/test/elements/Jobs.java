@@ -20,6 +20,22 @@ public class Jobs {
     WebElement jobTitle;
     @FindBy(xpath = ".//*[@id='page-content']/div[5]/div/form/div[2]/div/select")
     WebElement jobProvider;
+    @FindBy(xpath = ".//*[@id='page-content']/div[5]/div/form/div[3]/div/textarea")
+    WebElement jobDescription;
+    @FindBy(xpath = ".//*[@id='page-content']/div[5]/div/form/div[4]/div/div/div[12]/label/input")
+    WebElement skillRequired;
+    @FindBy(xpath = ".//*[@id='page-content']/div[5]/div/form/div[4]/div/div/div[17]/label/input")
+    WebElement language;
+    @FindBy(xpath = ".//*[@id='page-content']/div[5]/div/form/div[4]/div/div/div[21]/label/input")
+    WebElement companies;
+    @FindBy(xpath = ".//*[@id='page-content']/div[5]/div/form/div[4]/div/div/div[24]/label/input")
+    WebElement qweu;
+    @FindBy(xpath = ".//*[@id='page-content']/div[5]/div/form/div[4]/div/div/div[28]/label/input")
+    WebElement copies;
+    @FindBy(xpath = ".//*[@id='page-content']/div[5]/div/form/div[4]/div/div/div[30]/label/input")
+    WebElement webDevelopment;
+
+
 
     public Jobs(WebDriver driver){
         PageFactory.initElements(driver, this);
@@ -41,5 +57,28 @@ public class Jobs {
         Select dropdown = new Select(jobProvider);
         dropdown.selectByVisibleText(jobProviderText);
     }
+    public void setJobDescription(String jobDescriptionInput){
+        jobDescription.sendKeys(jobDescriptionInput);
+        //new WebDriverWait(driver,1200);
+    }
+    public void setSkillRequired(){
+        skillRequired.click();
+    }
+    public void setLanguage(){
+        language.click();
+    }
+    public void setCompanies(){
+        companies.click();
+    }
+    public void setQweu(){
+        qweu.click();
+    }
+    public void setCopies(){
+        copies.click();
+    }
+    public void setWebDevelopment(){
+        webDevelopment.click();
+    }
+
 
 }
